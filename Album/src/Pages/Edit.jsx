@@ -28,7 +28,7 @@ const Edit = ({ getData, getSingleData, onEditShow }) => {
       setEditAlbum({ title: "" });
       getData();
       console.log("editAlbum", editAlbum);
-      toast.success("Album Added Successfully", {
+      toast.success("Album Edited Successfully", {
         position: "top-center",
         autloClose: 3000,
       });
