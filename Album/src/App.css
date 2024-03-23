@@ -1,0 +1,267 @@
+body {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  background-color: whitesmoke;
+}
+
+.navbar .nav {
+  height: auto;
+  padding: 10px 0 10px 20px;
+  background-color: #a0a0f9;
+  position: relative;
+}
+.nav .nav-heading {
+  font-size: 25px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  position: absolute;
+  top: 22px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.nav img {
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* .album-parent {
+  width: 200px;
+  height: auto;
+  margin: 30px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  padding: 5px;
+  display: inline-block;
+  text-align: justify;
+  background-color: lightgray;
+}
+
+.album-child {
+  width: 150px;
+  height: 100px;
+  background-color: whitesmoke;
+  margin: 4px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 21px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.album-parent:hover {
+  cursor: pointer;
+  background-color: #0077ff;
+}
+
+.album-parent .title {
+  padding: 10px;
+}
+.album-parent h4 {
+  font-size: 1.3rem;
+  font-family: "Courier New";
+  text-align: center;
+  margin: 0px;
+} */
+
+.Albums_sec .Albums_container {
+  margin: 0 auto;
+  max-width: 1024px;
+}
+.Albums_sec .Albums_container .Albums_rownewrow .albumsList_top__Lf4N8 {
+  margin: 30px 0px;
+}
+.Albums_sec
+  .Albums_container
+  .Albums_rownewrow
+  .albumsList_top__Lf4N8
+  .albumsaddbtn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+}
+.Albums_sec
+  .Albums_container
+  .Albums_rownewrow
+  .albumsList_top__Lf4N8
+  .createbtn {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  background: rgb(9, 0, 73);
+  padding: 10px 30px;
+  border-radius: 7px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  transition: 0.5s;
+  border: none;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+.Albums_sec
+  .Albums_container
+  .Albums_rownewrow
+  .albumsList_top__Lf4N8
+  .redcolor {
+  display: inline-block;
+  text-decoration: none;
+  color: #000000;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+
+  padding: 10px 30px;
+  border-radius: 7px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  transition: 0.5s;
+  border: 1px solid red;
+  margin-right: 20px;
+}
+.Albums_sec
+  .Albums_container
+  .Albums_rownewrow
+  .albumsList_top__Lf4N8
+  .redcolor:hover {
+  background-color: red;
+  color: #ffffff;
+}
+.Albums_sec
+  .Albums_container
+  .Albums_rownewrow
+  .albumsList_top__Lf4N8
+  .createbtn:hover {
+  background-color: #eeeeee;
+  color: #000;
+}
+.Albums_sec .Albums_container .Albums_rownewrow .add-form-container input {
+  display: block;
+  background: #f4f8f5;
+  padding: 10px;
+  border-radius: 7px;
+  width: 100%;
+  border: 1px solid #bcb4b4;
+  /* border: none; */
+  margin: 20px 0px;
+  outline: none;
+}
+.Albums_sec
+  .Albums_container
+  .Albums_rownewrow
+  .albumsList_top__Lf4N8
+  .albumForm_albumForm__aow90 {
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px 0 rgba(99, 99, 99, 0.2);
+  padding: 50px;
+  margin: 10px;
+}
+.Albums_sec
+  .Albums_container
+  .Albums_rownewrow
+  .albumsList_top__Lf4N8
+  .add-heading
+  h4 {
+  font-size: 22px;
+}
+.Albums_sec .Albums_container .Albums_row .Albums_col {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.Albums_sec .Albums_container .Albums_row .Albums_col .album-parent {
+  text-align: center;
+  background: #eee;
+  flex: 0 0 auto;
+  width: 23%;
+  margin: 15px 6px;
+  box-shadow: rgba(100, 100, 111, 0.02) 0px 7px 29px 0px;
+  border-radius: 10px;
+  background-image: linear-gradient(
+    to left,
+    transparent,
+    transparent 50%,
+    #00c6ff 50%,
+    #00c6ff
+  );
+  background-position: 100% 0;
+  background-size: 220% 100%;
+  transition: all 0.25s ease-in;
+  cursor: pointer;
+}
+.Albums_sec .Albums_container .Albums_row .Albums_col .album-parent:hover {
+  background-position: 0 0;
+  color: #292020;
+}
+
+.Albums_sec .Albums_container .Albums_row .Albums_col .album-parent button {
+  border: none;
+  box-shadow: none;
+  outline: none;
+  background: white;
+  border-top-right-radius: 12px;
+  visibility: hidden;
+}
+.Albums_sec
+  .Albums_container
+  .Albums_row
+  .Albums_col
+  .album-parent:hover
+  button {
+  visibility: visible;
+}
+.Albums_sec .Albums_container .Albums_row .Albums_col .album-parent button img {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+.Albums_sec .Albums_container .Albums_row .Albums_col .album-parent .btn_add {
+  display: flex;
+  width: 100%;
+  justify-content: end;
+  background: white;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  cursor: pointer;
+}
+.Albums_sec .Albums_container .Albums_row .Albums_col .album-parent .title {
+  text-align: center;
+  padding: 10px;
+}
+.Albums_sec .Albums_container .Albums_row .Albums_col .album-parent h4 {
+  margin: 0px;
+}
+.Albums_sec
+  .Albums_container
+  .Albums_row
+  .Albums_col
+  .album-parent
+  .album-child {
+  background: white;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 992px) {
+  .Albums_sec .Albums_container .Albums_row .Albums_col .album-parent {
+    width: 30%;
+  }
+}
+@media (max-width: 768px) {
+  .Albums_sec .Albums_container .Albums_row .Albums_col .album-parent {
+    width: 45%;
+  }
+}
+@media (max-width: 500px) {
+  .Albums_sec .Albums_container .Albums_row .Albums_col .album-parent {
+    width: 90%;
+  }
+}
